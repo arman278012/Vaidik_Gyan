@@ -1,0 +1,109 @@
+.login-page .left {
+    background: linear-gradient(to right, #FF5D00, #FF9501, #FE6A00);
+    height: 813px;
+}
+
+.form .name-input {
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+
+/* .laptop-navbar {
+    display: none;
+}
+
+.top-bar {
+    display: none;
+}
+
+.footer {
+    display: none;
+}
+
+.Copyright {
+    display: none;
+} */
+
+@media only screen and (min-width: 340px) and (max-width: 767px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .login-content {
+        flex-direction: column;
+    }
+
+    .login-content .left {
+        width: 100%;
+        height: 400px;
+    }
+
+    .login-content .left .logo {
+        top: 14%;
+        right: 35%;
+
+    }
+
+    .login-content .left .logo img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .vaidik-gyan-para .para-1 {
+        font-size: 20px;
+        top: 40%;
+        right: 19%;
+    }
+
+    .vaidik-gyan-para .para-2 {
+        top: 50%;
+        right: 23%;
+    }
+
+    .login-content .right {
+        width: 100%;
+    }
+
+    .login-page {
+        margin-top: 150px;
+    }
+
+    .login-page .right {
+        margin-top: -64px;
+    }
+
+    .login-content .right .form .phone-input {
+        width: 296px;
+    }
+
+    .login-content .right .signup-btn .signup-button {
+        width: 296px;
+    }
+
+    .circle-5 {
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+    .login-content {
+        flex-direction: column;
+    }
+
+    .login-content .left {
+        width: 94vw;
+    }
+
+    .login-content .right {
+        margin-top: -10px;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

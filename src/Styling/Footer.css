@@ -1,0 +1,41 @@
+.footer {
+    /* background-image: url('/vaidikgyan/public/images/footerImage.png'); */
+    background: linear-gradient(to right, #FF5D00, #FF9501, #FE6A00);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    /* height: 365px; */
+}
+
+@media(max-width:767px) {
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer .compnay-details {
+        width: 100%;
+    }
+
+    .footer .nav-details-1 {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .footer .nav-details-1 ul li {
+        font-size: 13px;
+    }
+
+    .footer .nav-details-2 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .footer .nav-details-2 ul li {
+        font-size: 13px;
+    }
+
+    .footer-img {
+        display: none;
+    }
+
+}

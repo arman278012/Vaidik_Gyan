@@ -1,0 +1,137 @@
+.all {
+    background: linear-gradient(to right, #FF5D00, #FF9501, #FE6A00);
+}
+
+/*responsivenss for mobile*/
+@media only screen and (min-width: 340px) and (max-width: 767px) {
+    .mathura-banner {
+        margin-top: 130px;
+    }
+
+    .mathura-UP p {
+        font-size: 18px;
+    }
+
+    .mathura-vrindavan p {
+        font-size: 24px;
+    }
+
+    .discription p {
+        font-size: 18px;
+        line-height: 30px
+    }
+
+    .location {
+        gap: 5px;
+    }
+
+    .shop-by-categories {
+        width: 80%;
+    }
+    .worship-items p{
+        /* font-size: 12px; */
+    }
+
+    /* .shop-by-categories p {
+        font-size: 24px;
+    } */
+
+    .shopping-items {
+        height: 200px;
+        overflow-y: hidden;
+        overflow-x: scroll;
+        justify-content: flex-start;
+    }
+
+    .top-line .All-Products {
+        font-size: 24px;
+    }
+
+    .top-line .View-All {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width:767px) and (max-width:1024px) {
+    .hamburger-menu {
+        display: none;
+    }
+
+    .categories p {
+        font-size: 10px;
+    }
+
+    .religious-books p {
+        font-size: 10px;
+    }
+
+    .nav-links {
+        gap: 9px;
+        /* padding: 5px; */
+    }
+
+    .clothing p {
+        font-size: 10px;
+    }
+
+    .puja-items p {
+        font-size: 10px;
+    }
+
+    .Customised-murti-of-deities p {
+        font-size: 10px;
+    }
+
+    .Deity-status-and-Idols p {
+        font-size: 10px;
+    }
+
+    .Original-Jap-Malas p {
+        font-size: 10px;
+    }
+
+    .home p {
+        font-size: 10px;
+    }
+
+    .mathura-UP p {
+        font-size: 20px;
+    }
+
+    .mathura-vrindavan p {
+        font-size: 38px;
+        line-height: 20px;
+    }
+
+    .discription p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .shopping-items {
+        gap: 10px;
+    }
+
+    .worship-items p {
+        font-size: 11px;
+    }
+
+    .all-products p {
+        font-size: 13px;
+    }
+
+    .all-products .all,
+    .Murti,
+    .Beads,
+    .Mala,
+    .Clothings,
+    .Incense,
+    .Books,
+    .Deity-Clothes,
+    .Chandan-Tilak {
+        height: 35px;
+    }
+    .all-products .top-line .All-Products{
+        font-size: 28px;
+    }
+}

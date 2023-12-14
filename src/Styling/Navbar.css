@@ -1,0 +1,241 @@
+.home {
+    background: linear-gradient(to right, #FF5D00, #FF9501, #FE6A00);
+    height: 36px;
+    width: 72px;
+    border-radius: 18px;
+}
+
+.laptop-navbar {
+    display: block;
+}
+
+.mobile-navbar {
+    display: none;
+}
+
+.categories {
+    height: 36px;
+    width: 131px;
+    background-color: #F3F9FB;
+    border-radius: 18px;
+}
+
+.categories .down-arrow {
+    color: #FE6A00;
+}
+
+.religious-books {
+    height: 36px;
+    width: 161px;
+    border-radius: 18px;
+    background-color: #F3F9FB;
+}
+
+.religious-books .down-arrow {
+    color: #FE6A00;
+}
+
+.clothing {
+    height: 36px;
+    width: 95px;
+    border-radius: 18px;
+    background-color: #F3F9FB;
+}
+
+.puja-items {
+    height: 36px;
+    width: 102px;
+    border-radius: 18px;
+    background-color: #F3F9FB;
+}
+
+.Customised-murti-of-deities {
+    height: 36px;
+    width: 221px;
+    border-radius: 18px;
+    background-color: #F3F9FB;
+}
+
+.Deity-status-and-Idols {
+    height: 36px;
+    width: 182px;
+    border-radius: 18px;
+    background-color: #F3F9FB;
+}
+
+.Original-Jap-Malas {
+    height: 36px;
+    width: 161px;
+    border-radius: 18px;
+    background-color: #F3F9FB;
+}
+
+.navbar {
+    /* background: linear-gradient(to right, #FF5D00, #FF9501, #FE6A00); */
+    background-color: #ffff;
+    /* border-bottom: 1px solid #ddd; */
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+}
+
+.navbar.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 82px;
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+
+/*Responsive css */
+@media(max-width:767px) {
+    .hamburger-menu {
+        display: block;
+    }
+
+    .laptop-navbar {
+        display: none;
+    }
+
+    .mobile-navbar {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .top-bar-left .company-text {
+        position: fixed;
+        width: 100%;
+    }
+
+    .navbar {
+        /* background: linear-gradient(to right, #FF5D00, #FF9501, #FE6A00); */
+        background-color: #ffff;
+        /* border-bottom: 1px solid #ddd; */
+        transition: background-color 0.3s ease;
+        z-index: 1000;
+    }
+
+    .navbar .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        height: 82px;
+    }
+
+    .navbar-content {
+        display: flex;
+        justify-content: space-around;
+        padding: 15px;
+    }
+
+    .navbar {
+        background: linear-gradient(to right, #FF5D00, #FF9501, #FE6A00);
+    }
+
+    .navbar.sticky {
+        /* display: none; */
+        height: 0px;
+    }
+
+    .mobile-menu-link {
+        text-align: left;
+        margin-top: 130px;
+        background-color: white;
+        color: black;
+        height: 400px;
+        display: grid;
+        grid-column: 2/5;
+        align-items: center;
+        padding-left: 17px;
+        transition: all 2s linear ease-in-out;
+        transform-origin: top;
+        box-shadow: rgba(50, 50, 93, o.25) 0px 50px 100px -20px,
+            rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+        right: 183px;
+    }
+
+    .vertical-bar {
+        font-size: 25px;
+        position: absolute;
+        right: 41px;
+        font-size: 30px;
+        /* color: rgb(0, 0, 0); */
+        color: #fff;
+        top: 70px;
+        display: block;
+    }
+
+    .home {
+        background: linear-gradient(to right, #FF5D00, #FF9501, #FE6A00);
+        height: 28px;
+        width: 56px;
+        border-radius: 19px;
+        font-size: 10px;
+    }
+
+    .categories {
+        height: 28px;
+        width: 100px;
+        background-color: #F3F9FB;
+        border-radius: 18px;
+        font-size: 13px;
+    }
+
+    .religious-books {
+        height: 28px;
+        width: 130px;
+        border-radius: 18px;
+        background-color: #F3F9FB;
+        font-size: 13px;
+    }
+
+    .clothing {
+        height: 28px;
+        width: 75px;
+        border-radius: 18px;
+        background-color: #F3F9FB;
+        font-size: 13px;
+    }
+
+    .puja-items {
+        height: 28px;
+        width: 85px;
+        border-radius: 18px;
+        background-color: #F3F9FB;
+        font-size: 13px;
+    }
+
+    .Customised-murti-of-deities {
+        height: 28px;
+        width: 174px;
+        border-radius: 18px;
+        background-color: #F3F9FB;
+        font-size: 13px;
+    }
+
+    .Deity-status-and-Idols {
+        height: 28px;
+        width: 150px;
+        border-radius: 18px;
+        background-color: #F3F9FB;
+        font-size: 13px;
+    }
+
+    .Original-Jap-Malas {
+        height: 28px;
+        width: 123px;
+        border-radius: 18px;
+        background-color: #F3F9FB;
+        font-size: 13px;
+    }
+}

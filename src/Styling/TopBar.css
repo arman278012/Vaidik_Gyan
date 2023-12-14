@@ -1,0 +1,70 @@
+.top-bar {
+    background: linear-gradient(to right, #FF5D00, #FF9501, #FE6A00)
+}
+
+@media(max-width:767px) {
+    .top-bar {
+        color: white;
+        padding: 10px;
+        /* text-align: center; */
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+        height: 80px;
+    }
+
+    .top-bar-left {
+        position: absolute;
+        height: 70px;
+        width: 100%;
+        margin-top: 50px;
+        background: linear-gradient(to right, #FF5D00, #FF9501, #FE6A00);
+        background-color: #333;
+    }
+
+    .top-bar-left .Vaidik-Gyan {
+        font-size: 12px;
+    }
+
+    .top-bar-left .company-text {
+        margin-top: 17px;
+        margin-left: 45px;
+    }
+
+    .top-bar-left .company-logo {
+        width: 29px;
+        height: 28px;
+        position: absolute;
+        top: 10px;
+        left: 6px;
+    }
+
+    .top-bar .search-bar {
+        width: 130px;
+        display: flex;
+        margin-left: 9px;
+    }
+
+    .top-bar .search-input {
+        width: 176px;
+        height: 43px;
+        font-size: 11px;
+    }
+
+    .top-bar .signup-details {
+        margin-right: 1px;
+        gap: 4px;
+    }
+
+    .top-bar .signup-signin {
+        font-size: 10px;
+        margin-top: 6px;
+    }
+
+    .top-bar .cart {
+        font-size: 10px;
+        margin-top: 6px;
+    }
+
+}

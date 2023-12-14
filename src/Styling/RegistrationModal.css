@@ -1,0 +1,38 @@
+.check-circle {
+    background: linear-gradient(to right, #FF5D00, #FF9501, #FE6A00);
+}
+
+@media only screen and (min-width:340px) and (max-width:767px) {
+    .reg-modal {
+        left: 33px;
+        top: 141px;
+    }
+
+    .reg-modal .success-popup {
+        height: 376px;
+        width: 233px;
+    }
+
+    .check-circle {
+        height: 75px;
+        width: 75px;
+        left: 85px;
+        top: 157px;
+    }
+
+    .Registration-Successful {
+        font-size: 20px;
+    }
+
+    .successfully-registered {
+        font-size: 16px;
+    }
+
+    .para-success {
+        margin-top: 230px;
+    }
+
+    .check {
+        font-size: 28px;
+    }
+}

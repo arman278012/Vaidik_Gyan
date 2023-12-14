@@ -1,0 +1,403 @@
+.long-row {
+    background: linear-gradient(to right, #FF5D00, #FF9501, #FE6A00);
+}
+
+.html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+/*resposnive css is being written here*/
+
+
+/*For mobile optimization*/
+@media(max-width:767px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* body {
+        width: 100%;
+        overflow-x: scroll;
+    } */
+
+
+    .slider-1 {
+        left: 0px;
+    }
+
+    .first-banner {
+        width: 100%;
+        padding: 0px 10px;
+        margin-top: 125px;
+        /* left: 143px; */
+
+    }
+
+    .right-slider {
+        left: 308px;
+        top: 33px;
+    }
+
+    .left-circle {
+        /* height: 35px; */
+        width: 35px;
+    }
+
+    .left-arrow {
+        top: 9px;
+        left: 8px;
+        width: 17px;
+    }
+
+    .three-dots {
+        display: none;
+    }
+
+    .second-bannner {
+        width: 100%;
+    }
+
+    .right-circle {
+        top: 32px;
+        right: 312px;
+        width: 35px;
+    }
+
+    .right-circle .right-arrow {
+        top: 9px;
+        right: 12px;
+        width: 17px;
+    }
+
+    .hero-top-para {
+        top: 33px;
+        left: 32px;
+    }
+
+    .hero-top-para .uncover {
+        font-size: 10px;
+        line-height: normal;
+    }
+
+    .hero-top-para .Experience {
+        font-size: 14px;
+        line-height: normal;
+    }
+
+    .first-banner .banner_1 {
+        display: none;
+    }
+
+    .banner-ramji-image {
+        width: 130px;
+        /* left: 132px; */
+        right: 7px;
+        top: 1px;
+    }
+
+
+    /*Second banner optimization starts from here*/
+    /* .second-bannner {
+        width: 100%;
+    } */
+
+    .second-bannner .explore-category-para {
+        padding: 0 31px;
+    }
+
+    .second-bannner .explore-category-para .Explore,
+    .View-All {
+        font-size: 18px;
+    }
+
+    .second-bannner .explore-category-para .View-All {
+        font-size: 14px;
+    }
+
+    .second-bannner .temples-banner {
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* justify-content: center;
+        align-items: center;
+        margin: auto;
+        gap: 40px; */
+
+        width: 100%;
+        margin-top: 15px;
+        overflow-x: scroll;
+        height: 200px;
+        overflow-y: hidden;
+        gap: 5px;
+        justify-content: flex-start;
+    }
+
+    .second-bannner .Mathura,
+    .Kashi,
+    .Meenakshi,
+    .Somnath,
+    .Vaishnodevi,
+    .Siddhivinayak {
+        width: 100vw;
+        margin-left: 30px;
+    }
+
+
+    .Most-Selling-Products-heading .para-1 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .Most-Selling-Products-heading .para-2 {
+        font-size: 14px;
+    }
+
+    .most-selling-products .cards {
+        flex-direction: column;
+    }
+
+    .Recomended-for-you {
+        margin-top: 0;
+    }
+
+    .Recomended-for-you-para .para-1 {
+        font-size: 18px;
+        /* font-weight: 800; */
+    }
+
+    .Recomended-for-you-para .para-2 {
+        font-size: 14px;
+    }
+
+    .Recomended-for-you .cards {
+        flex-direction: column;
+    }
+
+    .red-banner {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .red-banner .red-banner-image {
+        /* width: 150px; */
+    }
+
+    .red-banner-radha-krishna {
+        width: 92px;
+        top: 1px;
+        left: 228px;
+        z-index: 1000;
+    }
+
+    .red-btn {
+        left: 47px;
+        bottom: 16px;
+    }
+
+    .red-btn .btn {
+        width: 80px;
+        height: 25px;
+        font-size: 10px;
+    }
+
+    .red-para {
+        /* display: none; */
+        top: 21px;
+        left: 34px;
+    }
+
+    .red-para .para-1,
+    .para-2 {
+        font-size: 10px;
+        line-height: normal;
+    }
+
+    .red-para .para-3,
+    .para-4 {
+        font-size: 12px;
+        display: none;
+    }
+
+    .most-selling-products {
+        margin-top: 40px;
+    }
+
+    .most-selling-products-para .para-1 {
+        font-size: 18px;
+    }
+
+    .most-selling-products-para .para-2 {
+        font-size: 14px;
+        margin-top: 3px;
+    }
+
+    .most-selling-products .cards {
+        flex-direction: column;
+    }
+}
+
+/*Responsive for tablet*/
+
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+    .first-banner {
+        width: 100%;
+        padding: 0px 10px;
+    }
+
+    .nav-links {
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+    .compnay-details {
+        width: 250px;
+    }
+
+    .nav-details-1 {
+        margin-left: 20px;
+        width: 156px;
+    }
+
+    .nav-details-1 ul {
+        font-size: 13px;
+    }
+
+    .nav-details-2 ul {
+        font-size: 13px;
+    }
+
+    .red-btn {
+        bottom: 26px;
+        left: 106px;
+    }
+
+    .top-bar-left {
+        margin-left: -26px;
+    }
+
+    .Vaidik-Gyan {
+        font-size: 10px;
+    }
+
+    .search-bar .search-input {
+        width: 320px;
+        margin-left: 9px;
+    }
+
+    .signup-details {
+        margin-right: 34px;
+    }
+
+    .right-slider {
+        left: -25px;
+        top: 71px;
+    }
+
+    .right-circle {
+        right: -19px;
+        top: 71px;
+    }
+
+    .banner-ramji-image {
+        width: 280px;
+        top: 10px;
+        right: 30px;
+    }
+
+    .hero-top-para {
+        top: 48px;
+        left: 68px;
+    }
+
+    .uncover {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .three-dots {
+        display: none;
+    }
+
+    .Experience {
+        font-size: 25px;
+        line-height: 36px;
+    }
+
+    /* .second-bannner {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    } */
+
+    .most-selling-products .cards {
+        display: grid;
+        /* margin-top: 10px; */
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .temples-banner {
+        margin-left: 20px;
+        gap: 50px;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .Recomended-for-you .cards {
+        display: grid;
+        /* margin-top: 10px; */
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .red-banner {
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+    .red-banner-radha-krishna {
+        top: 4px;
+        right: 61px;
+    }
+
+    .red-banner-radha-krishna-image {
+        width: 200px;
+    }
+
+    .red-para {
+        top: 38px;
+        left: 68px;
+    }
+
+    .red-para .para-1 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .red-para .para-2 {
+        font-size: 25px;
+        line-height: 24px;
+    }
+
+    .red-para .para-3 {
+        font-size: 18px;
+        line-height: 16px;
+    }
+
+    .red-para .para-4 {
+        line-height: 25px;
+    }
+
+    .red-para .red-btn {
+        left: 104px;
+        bottom: 14px;
+    }
+
+    .slider-1 {
+        left: 0px;
+    }
+
+
+}
